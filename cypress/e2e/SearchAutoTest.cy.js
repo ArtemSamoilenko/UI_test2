@@ -80,3 +80,4 @@ describe("UI/UX", () => {
       .should("contain.text", "Thank you for your purchase!");
   });
 });
+

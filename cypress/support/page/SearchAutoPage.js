@@ -3,11 +3,11 @@ import BasePage from "./BasePage";
 class SearchAutoPage extends BasePage {
   constructor() {
     super();
-    this.elements.shoppingCartButton1 = '[aria-label="Show the shopping cart"]';
+    this.elements.shoppingCartButton1 = 'button+mat-menu+button';
     this.elements.checkoutButton1 = '[id="checkoutButton"]';
 
     this.elements.field1 = '[aria-label="Add a new address"]';
-    this.elements.country1 = '#mat-input-9';
+    this.elements.country1 = 'div.ng-tns-c119-25 input';
     this.elements.nameAndLast = '#mat-input-10';
     this.elements.numberPhone = '#mat-input-11';
     this.elements.idPostCode = '#mat-input-12';
